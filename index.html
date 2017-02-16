@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Xysti - your personal assistant for finding sport facilties and physical activity sessions nearby</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://use.typekit.net/gyy6zpm.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -30,11 +31,13 @@
             </li>
             <li class="list--item item--1-of-3">
               <strong class="display--block">Xysti will return with a suggestion of a venue near the location and a time.</strong>
-              <div>
-                <strong class="display--block">Squash court</strong>
-                <span class="display--block">Hillingdon Leisure Centre</span>
-                <span class="display--block">3pm, Feb 18th 2017</span>
-                <span class="display--block">£10 / hour</span>
+              <div class="content__session-container">
+                <div class="session__content">
+                  <strong class="display--block">Squash court</strong>
+                  <span class="display--block">Hillingdon Leisure Centre</span>
+                  <span class="display--block">3pm, Feb 18th 2017</span>
+                  <span class="display--block">£10 / hour</span>
+                </div>
                 <span class="btn--primary">Book</span>
               </div>
             </li>
@@ -44,7 +47,7 @@
           </ul>
         </div>
         <div class="site__content--section">
-          <h3 class="section--title text--center">Where can I sign up?</h3>
+          <h3 class="section__title text--center">Where can I sign up?</h3>
           <p class="section--desc text--center">
             Right here! Let us know your details and we’ll keep you in the know with updates.<br>
             If you want to help us test the product, you can be part of the Private Alpha.<br>
@@ -68,7 +71,7 @@
               <div class="signup__form--part">
                 <ul class="signup__form--checkbox-list">
                   <li class="signup__form--checkbox">
-                    <input type="checkbox" value="1" name="group[353][1]" id="mce-group[353]-353-0">
+                    <input type="checkbox" value="1" name="group[353][1]" id="mce-group[353]-353-0" checked>
                     <label for="mce-group[353]-353-0">Select if you want to be part of the alpha program</label>
                   </li>
                 </ul>

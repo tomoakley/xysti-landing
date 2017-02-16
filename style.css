@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -14,12 +18,12 @@ body {
 
 .width--constrained {
   max-width: 1140px;
-  margin: 0 auto; 
+  margin: 0 auto;
   width: 100%;
 }
 
 .width--narrow {
-  max-width: 640px;
+  max-width: 740px;
   margin: 0 auto;
 }
 
@@ -94,6 +98,8 @@ a:hover, a:active {
 
 .site__content--section .section__title {
   text-align: center;
+  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 .section__list--horizontal {
@@ -103,7 +109,24 @@ a:hover, a:active {
 }
 
 .section__list--horizontal .item--1-of-3 {
-  width: 25%;
+  width: 27.5%;
+}
+
+.content__session-container {
+  line-height: 1.75;
+  margin-top: 15px;
+  border: solid thin #ccc;
+  border-radius: 5px;
+}
+
+.content__session-container .session__content {
+  padding: 10px;
+}
+
+.content__session-container .btn--primary {
+  margin-top: 5px;
+  padding: 0 5px;
+  border-radius: 0 0 5px 5px;
 }
 
 .site__content--signup {

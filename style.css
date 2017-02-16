@@ -158,4 +158,19 @@ a:hover, a:active {
   padding: 0;
 }
 
+.site__footer {
+  background: #7ED321;
+  padding: 10px;
+  color: white;
+}
+
+.site__footer .width--constrained {
+  align-items: center;
+}
+
+.site__footer a:link,
+.site__footer a:visited {
+  color: white;
+}
+
 

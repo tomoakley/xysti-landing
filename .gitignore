@@ -3,9 +3,6 @@
 # Node
 /node_modules
 
-# Build files
-/static
-
 # Vim files
 *.swp
 *.swo

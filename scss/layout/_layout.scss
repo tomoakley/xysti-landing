@@ -1,0 +1,24 @@
+.width--constrained {
+  max-width: $constrained;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.width--narrow {
+  max-width: $narrow;
+  margin: 0 auto;
+}
+
+.display--flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.display--block {
+  display: block;
+}
+
+.text--center {
+  text-align: center;
+}

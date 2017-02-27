@@ -1,0 +1,40 @@
+.site__content--short-desc {
+  font-weight: 400;
+}
+
+.site__content--section {
+  margin-top: 60px;
+}
+
+.site__content--section .section__title {
+  text-align: center;
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+
+.section__list--horizontal {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section__list--horizontal .item--1-of-3 {
+  width: 27.5%;
+}
+
+.content__session-container {
+  line-height: 1.75;
+  margin-top: 15px;
+  border: solid thin #ccc;
+  border-radius: 5px;
+}
+
+.content__session-container .session__content {
+  padding: 10px;
+}
+
+.content__session-container .btn--primary {
+  margin-top: 5px;
+  padding: 0 5px;
+  border-radius: 0 0 5px 5px;
+}
